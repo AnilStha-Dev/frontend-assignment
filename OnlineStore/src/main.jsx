@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import {BrowserRouter} from 'react-router-dom';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const queryClient = new QueryClient();
 
